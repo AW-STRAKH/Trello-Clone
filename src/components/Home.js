@@ -75,7 +75,7 @@ const Home = ({ boards, boardOrder, dispatch }) => {
   const renderCreateBoard = () => {
     return (
       <form onSubmit={handleSubmit} style={{ textAlign: "center" }}>
-        <CreateTitle>Create a new Board</CreateTitle>
+        <CreateTitle>Type the name of list and press enter</CreateTitle>
         <CreateInput
           onChange={handleChange}
           value={newBoardTitle}
